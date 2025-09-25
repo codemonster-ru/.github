@@ -11,7 +11,7 @@ Open-source ecosystem for web applications.
 
 ## 📚 Documentation
 
-- [Codemonster Wiki](https://github.com/codemonster-ru/wiki)
+- [Naming Guide](https://github.com/codemonster-ru/.github/blob/main/NAMING.md)
 
 ## 🌐 Links
 
