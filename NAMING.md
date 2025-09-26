@@ -2,16 +2,12 @@
 
 This document describes the naming conventions for Codemonster packages to ensure consistency and clarity within the ecosystem.
 
----
-
 ## 1. General Rules
 
 -   Vendor is always `codemonster-ru` (in both Composer and NPM).
 -   Package names should be short and descriptive (`config`, `router`, `support`, `view`).
 -   If a package is implemented in multiple languages, the **first implementation gets the clean name** (`codemonster-ru/<name>`).
     -   Subsequent implementations in other languages must use a postfix (`-php`, `-js`, `-ts`, etc.) in the GitHub repository name.
-
----
 
 ## 2. PHP packages
 
@@ -34,8 +30,6 @@ This document describes the naming conventions for Codemonster packages to ensur
 -   Composer: `codemonster-ru/env`
 -   Namespace: `Codemonster\Env`
 
----
-
 ## 3. JS/TS packages
 
 -   **NPM**: `@codemonster-ru/<name>`
@@ -55,16 +49,12 @@ This document describes the naming conventions for Codemonster packages to ensur
 -   JS → GitHub: `github.com/codemonster-ru/config-js`
 -   NPM: `@codemonster-ru/config`
 
----
-
 ## 4. Annabel framework
 
 -   **Core**: `codemonster-ru/annabel`
 -   **Skeleton**: `codemonster-ru/annabel-skeleton`
 -   **SSR Bridge**: `codemonster-ru/ssr-bridge`
 -   **SSR Service**: `@codemonster-ru/ssr-service`
-
----
 
 ## 5. Final table
 
