@@ -17,7 +17,7 @@ We build open-source tools for web applications and documentation sites.
 
 - **[Vue SSG](https://github.com/codemonster-ru/vue-ssg)** — a Vue runtime and scaffolding CLI
   for building static sites from Markdown.
-  [Packages and commands](https://github.com/codemonster-ru/vue-ssg#readme)
+  [Packages and commands](https://github.com/codemonster-ru/vue-ssg/blob/main/README.md)
 
 ## Server-side rendering
 
