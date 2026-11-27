@@ -11,6 +11,9 @@ word. Describe the change in a concise sentence fragment. Omit Conventional
 Commits prefixes and the final period. Keep established spelling for product
 names and public identifiers.
 
+Limit the full subject to 100 characters, including any GitHub pull request
+suffix. Describe the change in a merge subject and omit literal commit SHAs.
+
 - `Add a quick start for Floater.js`
 - `Fix stale SSR Service links`
 - `Describe Annabel package checks`
@@ -24,4 +27,7 @@ source monorepo and let the publishing workflow update the mirrors.
 
 ## Check new commits
 
-The commit-subject workflow checks formal conventions on pushes and pull requests. Review the wording and imperative verb when reviewing a change.
+The commit-subject workflow checks formal conventions on pushes and pull
+requests. The pull request check must pass before merging into the default
+branch of each source repository. Review the wording and imperative verb
+when reviewing a change.
